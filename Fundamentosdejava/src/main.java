@@ -155,5 +155,6 @@ public class main {
 		for (int aux2 = 0; aux2 < numero.length; aux2++) {
 			System.out.println("Indice " +aux2+ " = " + numero[aux2]);
 		}
+		System.out.println();
 	}
 	}

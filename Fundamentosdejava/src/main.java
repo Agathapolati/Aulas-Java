@@ -116,5 +116,44 @@ public class main {
 			System.out.println(y + " x " + x + "=" +  x*y);
 		}
 		
+		int x1 = 3;
+		int y1 = 5;
+		int z1 = 7;
+		
+		System.out.println(x1);
+		System.out.println(y1);
+		System.out.println(z1);
+		
+		double x[] = { 3, 5, 3, 5 }; // Matriz tem 4 espaços
+		
+		for(int aux = 0; aux < x.length; aux++) {
+			System.out.println("Valor do imdice " + aux + "=" + x[aux]);
+		}
+		String nome[] = {"Rafael", "Agatha", "Flavia"}; // determina que a matriz  tem 3 posiçoes 
+		
+		for (int aux1 = 0; aux1 < nome.length; aux1++) {
+			System.out.println(nome[aux1]);
+			if (nome[aux1] == "Agatha") {
+				System.out.println("O índice de Agatha é = " + aux1);
+				
+			}
+		}
+		
+		int[] arrayInt = new int[5]; // Array= Utilizado quando os objetos que atuam armazenando as variaves
+		String[] arrayString = new String[4];
+		double[] arraydouble = new double[3];
+		
+		arrayInt[3] = 4; //Dando o valor 
+		
+		int[] numero = new int[6]; //construindo o numero 
+		Scanner teclado = new Scanner(System.in);// instanciando o objeto
+		
+		for (int aux2=0; aux2 < numero.length; aux2++) { // length=Tamanho da variavel
+			System.out.println("Digite um número qualquer");
+			numero[aux2] = teclado.nextInt();
+		}
+		for (int aux2 = 0; aux2 < numero.length; aux2++) {
+			System.out.println("Indice " +aux2+ " = " + numero[aux2]);
+		}
 	}
-}
+	}

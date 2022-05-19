@@ -18,7 +18,7 @@ public class main {
 //		
 //		int idadePessoa = 61;
 //		
-//		if (idadePessoa < 18) {   //if: quando tiver mias de uma condição
+//		if (idadePessoa < 18) {   //if: quando tiver mias de uma condição, chamada de metodo
 //			System.out.println("Você não pode beber");
 //		}
 //		else if(idadePessoa < 60) {
@@ -124,7 +124,7 @@ public class main {
 		System.out.println(y1);
 		System.out.println(z1);
 		
-		double x[] = { 3, 5, 3, 5 }; // Matriz tem 4 espaços
+		double x[] = { 3, 5, 3, 5 }; // Matriz: é a criaçao da variavel e nessa variavel vai ter varias caixas para guardar essas informaçoes. tem 4 espaços
 		
 		for(int aux = 0; aux < x.length; aux++) {
 			System.out.println("Valor do imdice " + aux + "=" + x[aux]);
@@ -155,6 +155,36 @@ public class main {
 		for (int aux2 = 0; aux2 < numero.length; aux2++) {
 			System.out.println("Indice " +aux2+ " = " + numero[aux2]);
 		}
-		System.out.println();
+		
+		int[] arrayQualquer = new int[3]; // Matriz:Agrupa tudo em um lugar só
+		Object[] arrayObject = new Object[6]; // Quando tiver o Object[], consegue colocar qualquer coisa dentro dele 
+		
+		arrayObject[0] = 12; // Desvantagens de usar o Array: ele não muda o tamanho.  
+		arrayObject[1] = "Rafael";
+		arrayObject[2] = 13.8;
+		arrayObject[3] = true; 
+		arrayObject[5] = arrayQualquer;
+		
+		for (int aux2 = 0; aux2 < arrayObject.length; aux2++) {
+			System.out.println("Indice " +aux2+ " = " + arrayObject[aux2]);
+		}
+		
+		int[][] arrayBidirecional = new int[4][3]; //Estanciando o objeto , quando tem 2 [][] quer dizer que é Bidirecional. O Primeiro [] é a quantidade de linhas e o Segundo [] quantidade de colunas  
+		
+		arrayBidirecional[0][0]=8;
+		arrayBidirecional[2][1]=7;
+		
+		for (int linha = 0; linha < arrayBidirecional.length; linha++) { // Variar linha
+			for (int coluna = 0; coluna < arrayBidirecional[0].length; coluna++) { // quando tem o int e vocÊ estabelece um valor sempre o restante vai ser zero, se for outro vai ser nulo. 
+				System.out.print("Indice [" +linha+ "]["+coluna +"] = " + arrayBidirecional[linha][coluna]+" " ); // Variar Coluna
+			}
+			System.out.println();
+			
+		}
+		
 	}
-	}
+}
+
+		
+	
+	

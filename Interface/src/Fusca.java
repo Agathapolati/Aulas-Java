@@ -1,5 +1,5 @@
 
-public class Fusca implements Carro{
+public class Fusca implements Carro{  //Classe fusca , metodo da interface automovel
 
 	@Override
 	public void virarEsquerda() {

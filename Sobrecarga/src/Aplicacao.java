@@ -4,26 +4,26 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); //CriaÃ§Ã£o Scanner, utilizamos o Scanner para a leitura dos dados,como:Strings e booleanos
 		
 		
 		Matematica matematica = new Matematica();
 		
-		System.out.println("Somar dois Números");
-		System.out.println("Digite o Primeiro número");
+		System.out.println("Somar dois NÃºmeros"); //Mostrando na tela 
+		System.out.println("Digite o Primeiro nÃºmero");
 		int x = scanner.nextInt();
 		
-		System.out.println("Digite o Segundo número");
+		System.out.println("Digite o Segundo nÃºmero");
 		int y = scanner.nextInt();
 		
 		int soma = matematica.somar(x, y);
-		System.out.println("O resultado é " + soma + "!!!");
+		System.out.println("O resultado Ã© " + soma + "!!!");
 		
 		soma = matematica.somar(x, y, 5);
-		System.out.println("O resultado é " + soma + "!!!");
+		System.out.println("O resultado Ã© " + soma + "!!!");
 		
 		 double soma2 = matematica.somar(x, y);
-		System.out.println("O resultado é " + soma2 + "!!!");
+		System.out.println("O resultado Ã© " + soma2 + "!!!");
 
 
 	}

@@ -16,6 +16,9 @@ public class main {
 			}
 			System.out.println(string); //syso para mostar o falor da string 
 	}
+		String teste = "Mouse: funciona = sim, qtdBotoes= 2, tamanho = pequeno\n";
+		Mouse mouse = new Mouse(teste);
+		System.out.println(mouse);
 		
 		
 		

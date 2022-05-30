@@ -9,7 +9,7 @@ public class main {
 
 	public static void main(String[] args) throws IOException {
 		
-		Scanner scanner = new Scanner (System.in); // Criação do Scanner
+		Scanner scanner = new Scanner (System.in); // Criando o Scanner
 		String string = scanner.nextLine();
 		
 		try(BufferedWriter escrever = new BufferedWriter(new FileWriter("Saida.txt"))){

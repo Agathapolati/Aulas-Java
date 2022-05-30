@@ -1,23 +1,16 @@
 
-public  class  Aplicação {
+public class Aplicacao {
 
-	public  static  void  main ( String [] args ) {
-
-			//Instância o preparador
-		Preparador  preparador = novo  Preparador ();
+	public static void main(String[] args) {
 		
-		//Instância o leite quente
-		LeiteQuente  leiteQuente = new  LeiteQuente ();
+		Preparador preparador = new Preparador(); // Está Instânciando o preparador
 		
-		//Chama o leite quente no método preparar bebida.
-		preparador . prepararBebida ( leiteQuente );
+		LeiteQuente leiteQuente = new LeiteQuente();// Está Instânciando o Leite quente
+		preparador.prepararBebida(leiteQuente);//Chama o leite quente no método de preparar a bebida.
 		
-		//Instância o refrescante
-		Refrigerante  Refrigerante = novo  Refrigerante ();
+		Refrigerante refrigerante = new Refrigerante();// Está Instânciando o Refrigerante
+		preparador.prepararBebida(refrigerante); //Chama o Refrigerante no método de preparar a bebida.
 		
-		preparador . prepararBebida ( refrescante );
-
 	}
 
-}
 }

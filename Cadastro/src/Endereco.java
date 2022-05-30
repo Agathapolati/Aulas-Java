@@ -1,38 +1,38 @@
 
-class  public Endereco {
+public class Endereco {
 	
-	privado  String  rua ;
-	 número int  privado ;
-	 bairro de String  privado ;
+	private String rua;
+	private int numero;
+	private String bairro;
 	
 	
-	public  String  getRua () {
-		voltar  rua ;
+	public String getRua() {
+		return rua;
 	}
 	
 	
-	public  void  setRua ( String  rua ) {
-		isso . rua = rua ;
+	public void setRua(String rua) {
+		this.rua = rua;
 	}
 	
 	
-	public  int  getNumero () {
-		retornar  numero ;
+	public int getNumero() {
+		return numero;
 	}
 	
 	
-	public  void  setNumero ( int  numero ) {
-		isso . numero = numero ;
+	public void setNumero(int numero) {
+		this.numero = numero;
 	}
 	
 	
-	public  String  getBairro () {
-		 bairro de retorno ;
+	public String getBairro() {
+		return bairro;
 	}
 	
 	
-	public  void  setBairro ( String  bairro ) {
-		isso . bairro = bairro ;
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
 	}
 	
 	

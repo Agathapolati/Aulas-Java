@@ -1,56 +1,56 @@
 
 public class Pessoa {
-   nome da string  privada ;
-	 idade int  privada ;
-	particular 	Endereco  endereco ;
-	privado  Sexo  sexo ;
+	
+	private String nome;
+	private int idade;
+	private	Endereco endereco;
+	private Sexo sexo;
 	
 	
 	
-	// <------------------------------Getter e Setter-------------- ------------------------->
-	public  String  getNome () {
-		retornar  nome ;
+	// <------------------------------Getter e Setter--------------------------------------->
+	public String getNome() {
+		return nome;
 	}
 
-	public  void  setNome ( String  nome ) {
-		isso . nome = nome ;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
-	public  int  getIdade () {
-		retornar  idade ;
+	public int getIdade() {
+		return idade;
 	}
 
-	public  void  setIdade ( int  idade ) {
-		isso . idade = idade ;
-	}
-
-	
-
-	public  Endereco  getEndereco () {
-		retornar  endereco ;
-	}
-	
-	public  void  setEndereco ( Endereco  endereco ) {
-		isso . endereco = endereco ;
-	}
-	
-	
-	public  Sexo  getSexo () {
-		retornar  sexo ;
-	}
-
-	public  void  setSexo ( Sexo  sexo ) {
-		isso . sexo = sexo ;
+	public void setIdade(int idade) {
+		this.idade = idade;
 	}
 
 	
-	// <------------------------------Getter e Setter-------------- ------------------------->
-	
-	
 
-	@ Substituir
-	public  String  toString () {
-		return  "Pessoa [nome = " + nome + ", Idade = " + idade + ", endereco = " + endereco + " ,sexo = " + sexo + "]" ;
+	public Endereco getEndereco() {
+		return endereco;
+	}
+	
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+	
+	
+	public Sexo getSexo() {
+		return sexo;
 	}
 
+	public void setSexo(Sexo sexo) {
+		this.sexo = sexo;
+	}
+
+	
+	// <------------------------------Getter e Setter--------------------------------------->
+	
+	
+
+	@Override
+	public String toString() {
+		return "Pessoa [nome = " + nome + ", Idade = " + idade + ", endereco = "+ endereco + " ,sexo = " + sexo +"]";
+	}
 }

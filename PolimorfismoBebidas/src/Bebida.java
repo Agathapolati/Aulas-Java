@@ -1,38 +1,39 @@
 
- classe  pública Bebida {
-	 nome da string  privada ;
-	private  boolean  aprender ;
+public class Bebida {
+	private String nome;
+	private boolean aquecer;
 	
-	// Construtor da bebida
-	public  Bebida ( String  nome , boolean  ) {
-		super ();
-		isso . nome = nome ;
-		isso . valor = ; _
-		
+	//Construindo a Bebida.
+	public Bebida(String nome, boolean aquecer) {
+		super();
+		this.nome = nome;
+		this.aquecer = aquecer;
 	}
 	
-	
-	//Metodo publico, sem retorno, com nome Preparar.
-	public  void  Preparar () {	
-		Sistema . fora . println ( "Pegando o copo." );
-	}
-	
-	//Getters e setters.
-	public  String  getNome () {
-		retornar  nome ;
+	public void preparar() { //Metodo publico,sem retorno,com o nome preparar.
+		System.out.println("Pegando o copo");
 	}
 
-	public  void  setNome ( String  nome ) {
-		isso . nome = nome ;
+     //GETTERS AND SETTERS
+	public String getNome() {
+		return nome;
 	}
 
-	public  boolean  isAquecer () {
-		retorno  ; _
+
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
-	public  void  setAquecer ( boolean  importado ) {
-		isso . valor = ; _
+
+	public boolean isAquecer() {
+		return aquecer;
 	}
+
+
+	public void setAquecer(boolean aquecer) {
+		this.aquecer = aquecer;
+	}
+	
 	
 	
 }

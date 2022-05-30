@@ -1,20 +1,14 @@
 
-public  class  Refrigerante  estende  Bebida {
-	
-	//Construtor da bebida.
-	público  Refrigerante () {
-		//chama o construtor da superclasse
-		super ( "Refrigerante" , false );
+public class Refrigerante extends Bebida {
 
+	public Refrigerante() { //Construtor da bebida
+		super("Refrigerante", false);//Está chamando o construtor da super classe.	
 	}
 
-	//Sobreescreve o método preparar.
-	@ Substituir
-	public  void  Preparar () {
-		super . Preparar ();
-		Sistema . fora . println ( "Colocando o Refrigerante." );
+	@Override //Está subscreevendo o método preparar.
+	public void preparar() {
+		super.preparar();
+		System.out.println("Colocando gelo no copo");
+		System.out.println("Colocando o refrigerante no copo");
 	}
-	
-	
-	
 }

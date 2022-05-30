@@ -1,23 +1,18 @@
 
-Preparador de classe  pública {
-
-	//Classe de passagem
+public class Preparador {
 	
-	//metodo publico que recebe uma bebida
-	
-	public  void  prepararBebida ( Bebida  bebida ) {
-		Sistema . fora . println ( "Preparando a bebida" + bebida . getNome ()+ "..." );
+	public void prepararBebida(Bebida bebida) { // Metodo publico que recebe uma Bebida.
 		
-		bebida . Preparar ();
+		System.out.println("Preparando a Bebida " + bebida.getNome());
 		
-		if ( bebida . isAquecer ()) {
-			Sistema . fora . println ( "Aquecendo a bebida" + bebida . getNome ()+ "..." );
+		bebida.preparar();
+		
+		//para ver se a bebida é quente ou fria;
+		if(bebida.isAquecer()) {
+				System.out.println("Aquecendo a bebida " + bebida.getNome());
 		}
-		senão {
-			Sistema . fora . println ( "Esfriando a bebida" + bebida . getNome ()+ "..." );
-		}
-	Sistema . fora . println ( "Bebida pronta." );
-	Sistema . fora . println ( "---------------------------------------------------------- --------------------------------" );
+		
+		System.out.println("Bebida preparada com sucesso!! \n"); //Mostra na tela, um em baixo do outro.
+		
 	}
-	
 }

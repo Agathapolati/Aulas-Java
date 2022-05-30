@@ -5,14 +5,14 @@ public class Aplicacao {
 		
 		Veiculo veiculo = new Veiculo();
 		
-		veiculo.setMarca("Honda");
+		veiculo.setMarca("Honda");//atribui uma informação para cada atributo
 		veiculo.setModelo("City");
 		veiculo.setAno(2015);
 		
-		veiculo.imprimir();
+		veiculo.imprimir();//Imprimi os metodos
 		veiculo.buzinar();
 		
-		Carro carro = new Carro();
+		Carro carro = new Carro();//Criação Objeto
 		
 		carro.setMarca("Honda");
 		carro.setModelo("City");
@@ -24,26 +24,26 @@ public class Aplicacao {
 		carro.imprimir();
 		carro.buzinar();
 		
-		Caminhao caminhao = new Caminhao();
+		Caminhao caminhao = new Caminhao();//Criação do objeto Caminhao
 		
-		caminhao.setMarca("Scania");
+		caminhao.setMarca("Scania");//atribui uma informação para cada atributo
 		caminhao.setModelo("XJT75");
 		caminhao.setAno(2022);
 		
 		System.out.println();
 		
-		caminhao.imprimir();
+		caminhao.imprimir();//imorimi os metodos do caminhai
 		caminhao.buzinar();
 		
-		Moto moto = new Moto();
+		Moto moto = new Moto();//Criação do Objeto Moto
 		
 		moto.setMarca("Honda");
 		moto.setModelo("Titan");
 		moto.setAno(2014);
 		
-		System.out.println();
+		System.out.println();//Mostra na tela
 		
-		moto.imprimir();
+		moto.imprimir(); //Imprimi os metodos 
 		moto.buzinar();
 		moto.empinar();
 		

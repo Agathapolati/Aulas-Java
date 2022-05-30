@@ -1,7 +1,7 @@
 
-public class Carro extends Veiculo{
+public class Carro extends Veiculo{ // esta extendendo os atributos da classe veiculo
 	
-	private boolean quatroPortas;
+	private boolean quatroPortas; // quantidade de portas
 
 	@Override // subscreve o metodo
 	public void imprimir() {

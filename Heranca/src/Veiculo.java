@@ -1,30 +1,30 @@
 
 public class Veiculo {
 	
-	private String nome;
+	private String nome; //Variavel do veiculo
 	protected String marca;
 	protected String modelo;
 	protected int ano;
 	
-	public void buzinar( ) {
+	public void buzinar( ) { //Criação de metodo
 		System.out.println("BI BI");
 	}
 	
-	public void imprimir() {
+	public void imprimir() { //Criação de metodo
 		System.out.println("Marca: " + marca);
 		System.out.println("Modelo: " + modelo);
 		System.out.println("Ano: " + ano);
 	}
 	
-	public String getNome() {
+	public String getNome() { //Recebe o valor e retorna ele mesmo
 		return nome;
 	}
 
-	public void setNome(String nome) {
+	public void setNome(String nome) {//Modifica o valor da variavel e coloca em uma nova variavel que ja esta instanciada
 		this.nome = nome;
 	}
 
-	public String getMarca() {
+	public String getMarca() {//Recebe o valor e retorna ele mesmo
 		return marca;
 	}
 
@@ -32,7 +32,7 @@ public class Veiculo {
 		this.marca = marca;
 	}
 
-	public String getModelo() {
+	public String getModelo() {//Recebe o valor e retorna ele mesmo
 		return modelo;
 	}
 
@@ -40,7 +40,7 @@ public class Veiculo {
 		this.modelo = modelo;
 	}
 
-	public int getAno() {
+	public int getAno() {//Recebe o valor e retorna ele mesmo
 		return ano;
 	}
 

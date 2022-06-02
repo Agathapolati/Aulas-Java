@@ -1,15 +1,15 @@
 
 public class Pessoa {
 	
-	private String nome;
+	private String nome;//Criando as classes privadas 
 	private int idade;
-	private	Endereco endereco;
 	private Sexo sexo;
+	private	Endereco endereco;
+
 	
-	
-	
+
 	// <------------------------------Getter e Setter--------------------------------------->
-	public String getNome() {
+	public String getNome() { //Usando o Getter e Setter
 		return nome;
 	}
 
@@ -43,14 +43,33 @@ public class Pessoa {
 	public void setSexo(Sexo sexo) {
 		this.sexo = sexo;
 	}
-
-	
-	// <------------------------------Getter e Setter--------------------------------------->
-	
+	public Pessoa() {	
+	}
+	public Pessoa(String linha) {
+		
+		String[] arrayLinha = linha.split(",");
+		String[] arrayNome = arrayLinha[0].split("=");
+		this.nome = arrayNome[1].trim();
+		
+		String[] arrayIdade = arrayLinha[1].split("=");
+		this.idade = Integer.parseInt(arrayIdade[1].trim());
+		
+		String[] arraySexo = arrayLinha[2].split("=");
+		this.sexo = Sexo.valueOf(arraySexo[1].trim());
+		
+		Endereco endereco = new Endereco(arrayLinha);
+		this.endereco = endereco;
+		
+	}
 	
 
 	@Override
 	public String toString() {
-		return "Pessoa [nome = " + nome + ", Idade = " + idade + ", endereco = "+ endereco + " ,sexo = " + sexo +"]";
+		return "Pessoa: nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + endereco ; 
+
 	}
+
+	
+
+
 }

@@ -1,7 +1,7 @@
 
 public enum Sexo {
 	
-	MASCULINO,FEMININO,INDEFINIDO;
+	MASCULINO,FEMININO;
 	
 	private int num;
 

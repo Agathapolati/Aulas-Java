@@ -1,9 +1,10 @@
 
-public class Quadrado implements AreaCalculavel{
+public class Quadrado implements AreaCalculavel{  //Implementando de AreaCalculavel
 
+	//OVERRIDE
 	@Override
 	public void calcularArea() {
-		System.out.println("A ·rea do Quadrado È");
+		System.out.println("A √Årea do Quadrado √â"); //Mostrando na tela
 		
 	}
 	

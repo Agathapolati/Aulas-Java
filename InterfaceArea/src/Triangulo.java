@@ -1,9 +1,9 @@
 
-public class Triangulo implements AreaCalculavel {
+public class Triangulo implements AreaCalculavel { //Implementando de AreaCalculavel
 
 	@Override
 	public void calcularArea() {
-		System.out.println("A área do Triangulo é");
+		System.out.println("A Area do Triangulo Ã©");
 		
 	}
 	

@@ -1,7 +1,7 @@
 
 public class Rota {
 	
-	public void ir(Automovel automovel) { // quais ações que o automovel vai tomar
+	public void ir(Automovel automovel) { // quais as aÃ§Ãµes que o automovel vai tomar.Como:acelerar,virar a direita,virar a esquerda...
 		
 		automovel.virarDireita();
 		automovel.virarEsquerda();

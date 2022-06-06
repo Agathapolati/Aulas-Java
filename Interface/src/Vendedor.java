@@ -2,7 +2,7 @@
 public class Vendedor {
 	
 	public void mostrarPreco(ItemCaro caro) {
-		System.out.println("O valor é " + caro.getPreco());
+		System.out.println("O valor ï¿½ " + caro.getPreco()); //Mostrando na tela
 	}
 
 }

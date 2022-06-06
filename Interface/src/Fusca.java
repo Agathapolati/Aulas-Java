@@ -1,6 +1,7 @@
 
 public class Fusca implements Carro{  //Classe fusca , metodo da interface automovel
 
+	//Override
 	@Override
 	public void virarEsquerda() {
 		System.out.println("Fusca virou a esquerda");	

@@ -3,8 +3,8 @@ public class Aplicacao {
 
 	public static void main(String[] args) {
 		
-		Rota rota = new Rota(); // Criação Objeto
-		Ferrari ferrari = new Ferrari(); //Criação Objeto 
+		Rota rota = new Rota(); // Criando o Objeto
+		Ferrari ferrari = new Ferrari(); //Criando o Objeto 
 //		Fusca fusca = new Fusca();
 //		rota.ir(ferrari);
 //		System.out.println();

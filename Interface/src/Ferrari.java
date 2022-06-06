@@ -1,5 +1,5 @@
 
-public class Ferrari implements Automovel, ItemCaro{ // Não esquecer de implementar , pode ter mais de uma implementação(como o item caro)
+public class Ferrari implements Automovel, ItemCaro{ // Nï¿½o esquecer de implementar , pode ter mais de uma implementaï¿½ï¿½o(como o item caro)
 
 	@Override
 	public void virarEsquerda() {

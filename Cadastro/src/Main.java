@@ -39,18 +39,18 @@ public class Main {
 				else if(opcao==1)
 				pessoa.setSexo(Sexo.MASCULINO);
 				else {
-					System.out.println("Errado,não existe esse tipo de Sexo.Digite novamente!");
+					System.out.println("Errado,nï¿½o existe esse tipo de Sexo.Digite novamente!");
 					System.out.println("Masculino = 1 ou Feminino = 2");
 				}
 			}
 
-			System.out.println("Digite a Rua do seu endereço:");
+			System.out.println("Digite a Rua do seu endereï¿½o:");
 			pessoa.getEndereco().setRua(teclado.next());
 
-			System.out.println("Digite o Número do seu endereço:");
+			System.out.println("Digite o Nï¿½mero do seu endereï¿½o:");
 			pessoa.getEndereco().setNumero(teclado.nextInt());
 
-			System.out.println("Digite o Bairro do seu endereço:");
+			System.out.println("Digite o Bairro do seu endereï¿½o:");
 			pessoa.getEndereco().setBairro(teclado.next());
 			
 			listaPessoas.add(pessoa);
@@ -76,8 +76,8 @@ public class Main {
 
 	}
 	
-	System.out.println(ListaPessoas2);
+	System.out.println(ListaPessoas2);{
 }
 
 
-}}
+}

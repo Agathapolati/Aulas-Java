@@ -12,13 +12,13 @@ public class main {
 		
 		List <Mouse> listaMouse = new ArrayList<Mouse>();
 		
-		Mouse mouse1 = new Mouse("sim", "5", "Pequeno"); //Criando os 3 Mouses
+		Mouse mouse1 = new Mouse("sim", "5", "Pequeno"); //Criando o primeiro mouse
 		listaMouse.add(mouse1);
 		
-		Mouse mouse2 = new Mouse("sim", "5", "Medio");
+		Mouse mouse2 = new Mouse("sim", "5", "Medio");  //Criando o segundo mouse
 		listaMouse.add(mouse2);
 		
-		Mouse mouse3 = new Mouse("sim", "5", "Grande");
+		Mouse mouse3 = new Mouse("sim", "5", "Grande");  //Criando o primeiro mouse
 		listaMouse.add(mouse3);
 		
 		try(BufferedWriter escrever = new BufferedWriter (new FileWriter("Mouses.txt"))){

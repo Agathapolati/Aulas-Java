@@ -2,7 +2,7 @@
 public class Mouse {
 	private String funciona;
 	private String qtdBotoes;
-	private String tamanho;// Para Conseguir Ler Precisamos do Getters and Setters pois �  uma Classe Privada.
+	private String tamanho;// Para Conseguir Ler Precisamos do Getters and Setters pois é uma Classe Privada.
 	public Mouse(String funciona, String qtdBotoes, String tamanho) {
 		super();
 		this.funciona = funciona;
@@ -35,7 +35,7 @@ public class Mouse {
 		   
 		   String[] arrayAuxiliar1 = texto.split(",");
 		   String[] arrayAuxiliar2 =  arrayAuxiliar1[0].split("="); //Split:Quando ele encontra a "," ele quebra em duas Strings.
-		   this.funciona = arrayAuxiliar2[1].trim(); // Trim:Espa�o em branco ele joga fora.
+		   this.funciona = arrayAuxiliar2[1].trim(); // Trim:Espaço em branco ele joga fora.
 		   
 		   String[] arrayAuxiliar3 = arrayAuxiliar1[1].split("="); //Quebra o =.
 		   this.qtdBotoes = arrayAuxiliar3[1].trim();

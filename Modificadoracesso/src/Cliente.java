@@ -1,6 +1,7 @@
-import java.util.Objects;
+import java.util.Objects;//Importa um objeto
 
 public class Cliente {
+	// Atributos privados do cliente
 	private String nome;
 	private int cpf;
 	private int numConta;
@@ -8,6 +9,8 @@ public class Cliente {
 	public Cliente() {
 
 	}
+	// <----------------------------------------------- --Getters e setters--------------------------------------------- >
+	// Get pega o valor do atributo e set coloca um valor para o atributo
 
 	public String getNome() {
 		return nome;
@@ -32,10 +35,10 @@ public class Cliente {
 	public void setNumConta(int numConta) {
 		this.numConta = numConta;
 	}
-
+ //Override do toString, método que retorna todos os atributos e mostra no console
 	@Override
 	public String toString() {
-		return "Cliente: \nNome = " + nome + ", \nCPF = " + cpf + ", \nN�mero da Conta = " + numConta + "";
+		return "Cliente: \nNome = " + nome + ", \nCPF = " + cpf + ", \nNúmero da Conta = " + numConta + "";
 	}
 
 	@Override
@@ -43,7 +46,7 @@ public class Cliente {
 		return Objects.hash(cpf, nome, numConta);
 	}
 
-	@Override
+	@Override //Metodo que esta comparando dois objetos.
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;

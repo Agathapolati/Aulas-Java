@@ -4,8 +4,8 @@ public abstract class Item {
 	private int posicaoX = 1;
 	private int posicaoY = 1;
 	
-	public abstract void pegar();  //todos que herdarem a classe ITEM, devem ter o método pegar
-	//classe abstrata só tem a assinatura (;)
+	public abstract void pegar();  //todos que herdarem a classe ITEM, devem ter o metodo pegar
+	//classe abstrata sï¿½ tem a assinatura (;)
 	//se fosse implementar, teriam as chaves ({})
 	
 	

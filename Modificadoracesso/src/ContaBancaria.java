@@ -10,16 +10,16 @@ public class ContaBancaria {
 		saldo = 1.0;
 	}
 	
-	public ContaBancaria(boolean ativo, double saldo) {
+	public ContaBancaria(boolean ativo, double saldo) { //Sobrecarga de métodos do Conta bancaria
 		this.ativo = ativo;
 		this.saldo = saldo;
 	}
 	
-	public void receber(double valor) {
+	public void receber(double valor) {//Método que mostra na tela que o usuário acaba de receber um valor
 		saldo += valor;
 	}
 	
-	public double saldo() {
+	public double saldo() {//Mostra o saldo
 		return saldo;
 	}
 	public void dar(double valor) {

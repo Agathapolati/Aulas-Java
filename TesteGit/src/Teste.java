@@ -2,7 +2,7 @@
 public class Teste {
 
 	public static void main(String[] args) {
-		System.out.println("Agatha");
+		System.out.println("Agatha"); //Imprime no console o nome "Agatha"
 
 	}
 

@@ -15,11 +15,11 @@ public class Main {
 
 		List<Pessoa> listaPessoas = new ArrayList<Pessoa>();//Criando uma lista
 
-		Scanner teclado = new Scanner(System.in);
+		Scanner teclado = new Scanner(System.in);//Instânciandi um scanner
 
 		for (int x = 0; x < 4; x++) {
 
-			Pessoa pessoa = new Pessoa();
+			Pessoa pessoa = new Pessoa();//Instância pessoa
 			pessoa.setEndereco(new Endereco());
 
 			System.out.println("Digite seu nome: ");
@@ -45,7 +45,7 @@ public class Main {
 			}
 
 			System.out.println("Digite a Rua do seu endere�o:");
-			pessoa.getEndereco().setRua(teclado.next());
+			pessoa.getEndereco().setRua(teclado.next());// pega o endereço e marque a rua dentro dele com uma instância de teclado
 
 			System.out.println("Digite o N�mero do seu endere�o:");
 			pessoa.getEndereco().setNumero(teclado.nextInt());
@@ -63,20 +63,20 @@ public class Main {
 		}
 		
 		}
-	List<Pessoa> ListaPessoas2 = new ArrayList<Pessoa>() {
+	List<Pessoa> ListaPessoas2 = new ArrayList<Pessoa>() {// Cria uma nova lista de pessoa com o nome ListaPessoas2.
 
-	try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) {
+	try (BufferedReader reader = new BufferedReader(new FileReader("saida.txt"))) { // Escreve um txt com o nome "Pessoas.txt"
 		String line;
 
-		while ((line = reader.readLine()) != null) {
-			Pessoa pessoa = new Pessoa(line);
+		while ((line = reader.readLine()) != null) { // Enquanto uma linha não estiver vazia, ele ira ler o txt
+			Pessoa pessoa = new Pessoa(line);// Instância uma pessoa
 
-			ListaPessoas2.add(pessoa);
+			ListaPessoas2.add(pessoa);// Adiciona a pessoa criada a lista.
 		}
 
 	}
 	
-	System.out.println(ListaPessoas2);{
+	System.out.println(ListaPessoas2);{ //Mostra a informação no console
 }
 
 

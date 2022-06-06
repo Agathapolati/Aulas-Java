@@ -18,16 +18,16 @@ public class main {
 //		
 //		int idadePessoa = 61;
 //		
-//		if (idadePessoa < 18) {   //if: quando tiver mias de uma condição, chamada de metodo
-//			System.out.println("Você não pode beber");
+//		if (idadePessoa < 18) {   //if: quando tiver mias de uma condiï¿½ï¿½o, chamada de metodo
+//			System.out.println("Vocï¿½ nï¿½o pode beber");
 //		}
 //		else if(idadePessoa < 60) {
 //			System.out.println("Bora tomar uma");
 //		}else {
-//			System.out.println("quanto é a sua aposentadoria?");
+//			System.out.println("quanto ï¿½ a sua aposentadoria?");
 //		}
 //		
-//		System.out.println("Você tem " + idadePessoa + " anos");
+//		System.out.println("Vocï¿½ tem " + idadePessoa + " anos");
 //		
 //		int num = 8;
 //		
@@ -39,7 +39,7 @@ public class main {
 //			System.out.println("Segunda");
 //			break;
 //		case 3:
-//			System.out.println("Terça");
+//			System.out.println("Terï¿½a");
 //			break;
 //		case 4:
 //			System.out.println("Quarta");
@@ -54,36 +54,36 @@ public class main {
 //			System.out.println("Sabado");
 //			break;
 //		default:
-//			System.out.println("Esse numero não representa um dia da semana!");
+//			System.out.println("Esse numero nï¿½o representa um dia da semana!");
 //		}
 		
 //		char caractere = 'c';
 //
 //		switch (caractere) {
 //		case 'a':
-//			System.out.println("Seu caractere é a");
+//			System.out.println("Seu caractere ï¿½ a");
 //			break;
 //		case 'b':
-//			System.out.println("Seu caractere é b");
+//			System.out.println("Seu caractere ï¿½ b");
 //			break;
 //		default:
-//			System.out.println("Valor inválido");
+//			System.out.println("Valor invï¿½lido");
 //		}
 		
 //		String farol = "vermelho";
 //
-//		switch (farol) {  // Switch é escolha
+//		switch (farol) {  // Switch ï¿½ escolha
 //		case "vermelho":
 //			System.out.println("Pare!!!");
 //			break;
 //		case "amarelo":
-//			System.out.println("Atenção!!!");
+//			System.out.println("Atenï¿½ï¿½o!!!");
 //			break;
 //		case "verde":
 //			System.out.println("Siga!!!");
 //			break;
 //		default:
-//			System.out.println("valor inválido");
+//			System.out.println("valor invï¿½lido");
 //		}
 		
 //		int x = 0;
@@ -100,7 +100,7 @@ public class main {
 		
 //		System.out.println("teste "+ x);
 		
-//		for(int x=1; x<10; x++) { // criação da variavel , tem o começo e fim ( só conseguimos utilizar a variavel criada no "for" , apenas no "for".)
+//		for(int x=1; x<10; x++) { // criando  da variavel , tem o comeÃ§o e fim ( sÃ³ conseguimos utilizar a variavel criada no "for" , apenas no "for".)
 //			System.out.println(x);
 //		}
 //		
@@ -109,7 +109,7 @@ public class main {
 //		}
 
 		Scanner entrada = new Scanner (System.in);
-		System.out.println("Digite um número qualquer:");
+		System.out.println("Digite um nÃºmero qualquer:");
 		int y = entrada.nextInt();
 		
 		for(int x=0; x<10; x++) {
@@ -124,17 +124,17 @@ public class main {
 		System.out.println(y1);
 		System.out.println(z1);
 		
-		double x[] = { 3, 5, 3, 5 }; // Matriz: é a criaçao da variavel e nessa variavel vai ter varias caixas para guardar essas informaçoes. tem 4 espaços
+		double x[] = { 3, 5, 3, 5 }; // Matriz: ï¿½ a criaï¿½ao da variavel e nessa variavel vai ter varias caixas para guardar essas informaï¿½oes. tem 4 espaï¿½os
 		
 		for(int aux = 0; aux < x.length; aux++) {
 			System.out.println("Valor do imdice " + aux + "=" + x[aux]);
 		}
-		String nome[] = {"Rafael", "Agatha", "Flavia"}; // determina que a matriz  tem 3 posiçoes 
+		String nome[] = {"Rafael", "Agatha", "Flavia"}; // determina que a matriz  tem 3 posiÃ§Ãµes 
 		
 		for (int aux1 = 0; aux1 < nome.length; aux1++) {
 			System.out.println(nome[aux1]);
 			if (nome[aux1] == "Agatha") {
-				System.out.println("O índice de Agatha é = " + aux1);
+				System.out.println("O ï¿½ndice de Agatha ï¿½ = " + aux1);
 				
 			}
 		}
@@ -149,17 +149,17 @@ public class main {
 		Scanner teclado = new Scanner(System.in);// instanciando o objeto
 		
 		for (int aux2=0; aux2 < numero.length; aux2++) { // length=Tamanho da variavel
-			System.out.println("Digite um número qualquer");
+			System.out.println("Digite um nï¿½mero qualquer");
 			numero[aux2] = teclado.nextInt();
 		}
 		for (int aux2 = 0; aux2 < numero.length; aux2++) {
 			System.out.println("Indice " +aux2+ " = " + numero[aux2]);
 		}
 		
-		int[] arrayQualquer = new int[3]; // Matriz:Agrupa tudo em um lugar só
+		int[] arrayQualquer = new int[3]; // Matriz:Agrupa tudo em um lugar sï¿½
 		Object[] arrayObject = new Object[6]; // Quando tiver o Object[], consegue colocar qualquer coisa dentro dele 
 		
-		arrayObject[0] = 12; // Desvantagens de usar o Array: ele não muda o tamanho.  
+		arrayObject[0] = 12; // Desvantagens de usar o Array: ele nï¿½o muda o tamanho.  
 		arrayObject[1] = "Rafael";
 		arrayObject[2] = 13.8;
 		arrayObject[3] = true; 
@@ -169,13 +169,13 @@ public class main {
 			System.out.println("Indice " +aux2+ " = " + arrayObject[aux2]);
 		}
 		
-		int[][] arrayBidirecional = new int[4][3]; //Estanciando o objeto , quando tem 2 [][] quer dizer que é Bidirecional. O Primeiro [] é a quantidade de linhas e o Segundo [] quantidade de colunas  
+		int[][] arrayBidirecional = new int[4][3]; //Estanciando o objeto , quando tem 2 [][] quer dizer que ï¿½ Bidirecional. O Primeiro [] ï¿½ a quantidade de linhas e o Segundo [] quantidade de colunas  
 		
 		arrayBidirecional[0][0]=8;
 		arrayBidirecional[2][1]=7;
 		
 		for (int linha = 0; linha < arrayBidirecional.length; linha++) { // Variar linha
-			for (int coluna = 0; coluna < arrayBidirecional[0].length; coluna++) { // quando tem o int e vocÊ estabelece um valor sempre o restante vai ser zero, se for outro vai ser nulo. 
+			for (int coluna = 0; coluna < arrayBidirecional[0].length; coluna++) { // quando tem o int e vocï¿½ estabelece um valor sempre o restante vai ser zero, se for outro vai ser nulo. 
 				System.out.print("Indice [" +linha+ "]["+coluna +"] = " + arrayBidirecional[linha][coluna]+" " ); // Variar Coluna
 			}
 			System.out.println();
